@@ -5,9 +5,9 @@ Biblioteca TypeScript para integração com a Cobre Facil.
 ## Instalação
 
 ```bash
-npm install cobre-facil
+npm install llbi-cobre-facil
 # ou
-yarn add cobre-facil
+yarn add llbi-cobre-facil
 ```
 
 ## Requisitos

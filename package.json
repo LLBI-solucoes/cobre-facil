@@ -1,6 +1,6 @@
 {
-  "name": "cobre-facil",
-  "version": "0.0.2",
+  "name": "llbi-cobre-facil",
+  "version": "0.0.1",
   "description": "Biblioteca TypeScript para integração com a API do Evolution",
   "author": "Saulo Costa",
   "main": "dist/index.js",
@@ -50,12 +50,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LLBI-solucoes/cobre-facil.git"
+    "url": "git+https://github.com/LLBI-solucoes/llbi-cobre-facil.git"
   },
   "bugs": {
-    "url": "https://github.com/LLBI-solucoes/cobre-facil/issues"
+    "url": "https://github.com/LLBI-solucoes/llbi-cobre-facil/issues"
   },
-  "homepage": "https://github.com/LLBI-solucoes/cobre-facil#readme",
+  "homepage": "https://github.com/LLBI-solucoes/llbi-cobre-facil#readme",
   "engines": {
     "node": ">=14.0.0"
   }
