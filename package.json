@@ -1,0 +1,62 @@
+{
+  "name": "cobre-facil",
+  "version": "0.0.1",
+  "description": "Biblioteca TypeScript para integração com a API do Evolution",
+  "author": "Saulo Costa",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "release:check": "git diff --exit-code",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "release": "npm run test && npm run lint && npm run build && npm run release:patch"
+  },
+  "keywords": [
+    "evolution",
+    "whatsapp",
+    "api",
+    "typescript"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "axios": "^1.8.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.1",
+    "@typescript-eslint/eslint-plugin": "^8.30.1",
+    "@typescript-eslint/parser": "^8.30.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^10.1.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLBI-solucoes/cobre-facil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LLBI-solucoes/cobre-facil/issues"
+  },
+  "homepage": "https://github.com/LLBI-solucoes/cobre-facil#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
