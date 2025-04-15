@@ -1,6 +1,6 @@
 {
   "name": "cobre-facil",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Biblioteca TypeScript para integração com a API do Evolution",
   "author": "Saulo Costa",
   "main": "dist/index.js",
