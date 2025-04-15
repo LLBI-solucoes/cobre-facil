@@ -1,6 +1,6 @@
 {
   "name": "llbi-cobre-facil",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Biblioteca TypeScript para integração com a API do Evolution",
   "author": "Saulo Costa",
   "main": "dist/index.js",
